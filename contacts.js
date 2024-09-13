@@ -33,7 +33,8 @@ async function addContact(name, email, phone) {
   return newContact;
 }
 
-// returns the deleted contact object. // returns null if no contact with this id is found.
+// returns the deleted contact object. 
+// returns null if no contact with this id is found.
 async function removeContact(contactId) {
   const id = String(contactId);
   const contacts = await listContacts();
