@@ -11,7 +11,7 @@ async function listContacts() {
 }
 
 // returns the contact object with this id. 
-// returns null if no contact with this id is found.
+// returns null if no contact with this id is found
 async function getContactById(contactId) {
   const id = String(contactId);
   const contacts = await listContacts();
