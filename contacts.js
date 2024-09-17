@@ -10,7 +10,7 @@ async function listContacts() {
   return JSON.parse(data);
 }
 
-// returns the contact object with this id. 
+// returns the contact object with this id
 // returns null if no contact with this id is found
 async function getContactById(contactId) {
   const id = String(contactId);
